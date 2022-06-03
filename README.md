@@ -17,6 +17,12 @@ This repo is to practice using PyTests. Tutorial followed on Edureka's YouTube c
 
     `pytest [FILE NAME] -k [FUNCTION NAME] -v`
     
-    -k flag for 'keyword'
+* -k flag for 'keyword'
 
-    -v flag for 'verbose'
+* -v flag for 'verbose'
+
+:star:  To run by marker:
+
+`pytest [FILENAME] -m [MARKERNAME]`
+
+* Marker identified as decorator: `@pytest.mark.[MARKERNAME]`
