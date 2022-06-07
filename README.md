@@ -15,7 +15,7 @@ This repo is to practice using PyTests. Tutorial followed on Edureka's YouTube c
 
 :star: To run one function within a file:
 
-    `pytest [FILE NAME] -k [FUNCTION NAME] -v`
+    pytest [FILE NAME] -k [FUNCTION NAME] -v
     
 * -k flag for 'keyword'
 
@@ -23,6 +23,6 @@ This repo is to practice using PyTests. Tutorial followed on Edureka's YouTube c
 
 :star:  To run by marker:
 
-`pytest [FILENAME] -m [MARKERNAME]`
+    pytest [FILENAME] -m [MARKERNAME]
 
 * Marker identified as decorator: `@pytest.mark.[MARKERNAME]`
